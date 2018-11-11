@@ -2,14 +2,13 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
 nadialucas:
-  name:              Nadia Lucas
-  email:             nrlucas@uchicago.edu
+  name:              Henry Zhang
+  email:             hhz@uchicago.edu
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Research Assistant at the Energy Policy Institute at the University of Chicago
-    under Professor Ryan Kellogg. 
+    Research Assistant for Michael Greenstone at the University of Chicago 
 
     Open `_data/authors.yml` to edit this text.
 
@@ -49,18 +48,18 @@ nadialucas:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    github:          nadialucas
+    # github:          nadialucas
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    linkedin:        henry-zhang-53a4a67a
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-    email:           mailto:nrlucas@uchicago.edu
+    email:           mailto:hhz@uchicago.edu
     # rss:             https://<url>/feed.xml
 
 # Another author
@@ -68,7 +67,7 @@ mdo:
   name:              <firtname> <lastname>
   email:             <mail@domain.tld>
   about:             |
-    My name is Nadia Lucas
+    My name is Henry Zhang
     Open `_data/authors.yml` to edit this text.
   picture:           https://placehold.it/128x128
   social:
