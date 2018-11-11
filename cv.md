@@ -2,7 +2,7 @@
 layout: page
 title: CV
 menu: true
-order: 4
+order: 3
 ---
 
 ## Below is a link to view my CV
