@@ -26,8 +26,8 @@ author:
   email:             hhz@uchicago.edu
 
 # Fallback image and color
-image:               /assets/img/headshot.jpg
-color:               '#4f86aa'
+accent_image:               /assets/img/tree.jpg
+accent_color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:        "'Roboto Slab', Helvetica, Arial, sans-serif"

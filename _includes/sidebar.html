@@ -1,32 +1,23 @@
 <div id="_yDrawer">
   <div id="_sidebar" class="sidebar">
-    <div class="sidebar-bg" style="background-color:#4f86aa;background-image:url(assets/img/tree.jpg);height:100%"></div>
+    <div class="sidebar-bg" style="background-color:{{ color }};background-image:url({{ image }})"></div>
     <header class="sidebar-sticky" role="banner">
       <div class="sidebar-about">
-        <h1><a id="_title" href="/">Henry Zhang</a></h1>
-        <p>Research Assistant for Michael Greenstone at the University of Chicago
+        <h1><a id="_title" href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        {{ site.description | truncatewords:50 | markdownify }}
       </div>
 
-      <nav class="sidebar-nav heading" role="navigation"> 
-        <span class="sr-only">Navigation:</span>
-        <ul>
-          <li> <a class="sidebar-nav-item active" href="/about/">About</a>
-          <li> <a class="sidebar-nav-item active" href="/research/">Research</a>
-          <li> <a class="sidebar-nav-item active" href="/cv/">CV</a>
-        </ul>
+      <nav class="sidebar-nav heading" role="navigation">
+        {% include nav.html %}
       </nav>
 
-      <div class="sidebar-social"> 
-        <span class="sr-only">Social:</span>
-        <ul>
-          <li> <a href="https://linkedin.com/in/henry-zhang-53a4a67a/" title="LinkedIn"> 
-            <span class="icon-linkedin2"></span> 
-            <span class="sr-only">LinkedIn</span> </a>
-          <li> <a href="mailto:<hhz@uchicago.edu>" title="Email"> 
-            <span class="icon-mail"></span> 
-            <span class="sr-only">Email</span> </a>
-        </ul>
-      </div>
+      {% assign author = site.data.authors.first[1] | default:site.author %}
+
+      {% if author.social or site.github_username or site.twitter_username %}
+        <div class="sidebar-social">
+          {% include social.html social=author.social %}
+        </div>
+      {% endif %}
     </header>
   </div>
 </div>
