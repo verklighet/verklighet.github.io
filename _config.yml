@@ -2,7 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               Henry Zhang
+title:               Henry H Zhang
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
@@ -22,7 +22,7 @@ description:         >
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              Henry Zhang
+  name:              Henry H Zhang
   email:             hhz@uchicago.edu
 
 # Fallback image and color
