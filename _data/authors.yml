@@ -3,14 +3,12 @@
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
 nadialucas:
   name:              Henry Zhang
-  email:             hhz@uchicago.edu
+  email:             hhz@mit.edu
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Research Assistant for Michael Greenstone at the University of Chicago 
-
-    Open `_data/authors.yml` to edit this text.
+    PhD Student in Economics at MIT 
 
   # This photo will be used in the about section
   picture:            
